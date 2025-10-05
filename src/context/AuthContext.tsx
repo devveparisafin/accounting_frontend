@@ -24,7 +24,8 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 // Define the base URL for your backend API
-const API_URL = 'http://localhost:5000/api/auth'; 
+//const API_URL = 'http://localhost:5000/api/auth'; 
+const API_URL = 'https://accounting-backend-euge.onrender.com/api/auth';
 
 // 3. Auth Provider Component
 export const AuthProvider = ({ children }: { children: ReactNode }) => {
